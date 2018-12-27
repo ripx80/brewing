@@ -1,0 +1,11 @@
+recipes:
+  
+  version: mmum #maischemalzundmehr
+  file: recipes/SNPA.json
+  #file: recipes/Brauwolfs_Atlantik_Ale_Clone.json
+  #file: recipes/api.json
+  cooking-time-overwrite: False #90
+  demo_recipe: 'recipes/demo01.json'
+sys:
+  cooking-temp: 110
+  dev: True

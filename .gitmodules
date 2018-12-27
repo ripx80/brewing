@@ -1,0 +1,3 @@
+[submodule "brewman/control/src/433Utils"]
+	path = brewman/control/src/433Utils
+	url = https://github.com/ripx80/433Utils
