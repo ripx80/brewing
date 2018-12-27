@@ -1,5 +1,7 @@
 # Rip on Brewing
 
+You need python3.5 or higher.
+
 ## Upgrading python3.7 on Raspbian
 
 ```bash
@@ -18,6 +20,19 @@ rm Python-3.7.0.tar.xz
 sudo apt-get --purge remove build-essential tk-dev libncurses5-dev libncursesw5-dev libreadline6-dev libdb5.3-dev libgdbm-dev libsqlite3-dev libssl-dev libbz2-dev libexpat1-dev liblzma-dev zlib1g-dev libffi-dev -y
 sudo apt-get autoremove -y
 sudo apt-get clean
+```
+
+## Usage
+
+```bash
+# developer run
+python3 brewcontrol.py -d
+
+# try-run with sensor test
+python3 brewcontrol.py --try-run
+
+# normal for brewing
+python3 brewcontrol.py
 ```
 
 ## Zu beachten
